@@ -1,0 +1,145 @@
+*{ margin: 0; padding: 0; font-family: "source-sans-pro", sans-serif;}
+
+/*Colours 
+ * #3498DB - General darker blue
+ * #6BB9F0 - Highlights lighter blue
+ * #762D66 - Purple
+ * 
+ * */
+
+.backing {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-image: url("../images/desktop-background-city-for-desktop-14.jpg");
+    background-position: center center;
+    background-size: cover;
+    /*-webkit-filter: blur(4px) grayscale(20%);*/
+    z-index: -99;
+}
+.shader {
+    z-index: -98;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(21, 24, 35, 0.52);
+}
+
+/**************************/
+/*******SECTION ONE********/
+/**************************/
+.section1 {
+    width: 100%;
+    background-color: rgba(52, 152, 219, 0);
+    height: 82px;
+    color: white;
+}
+.wrapper1 {
+    width: 1241px;
+    margin: auto;
+    position: relative;
+}
+.section1 nav {
+    float: right;
+    position: relative;
+    top: 29px;
+}
+.section1 li {
+    display: inline-block;
+    margin-right: 53px;
+    font-size: 20px;
+}
+.section1 li:last-of-type {
+    display: inline-block;
+    margin-right: 0;
+}
+.logo {
+    float: left;
+    position: relative;
+    top: 28px;
+    font-size: 20px;
+}
+.logo span{
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+/**************************/
+/*******SECTION TWO********/
+/**************************/
+
+.section2 {
+    width: 100%;
+    height: 75%;
+}
+.text {
+    margin: auto;
+    width: 36%;
+    height: 35%;
+    padding: 45px;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+  /*background-color: rgba(46, 51, 65, 0.26);*/
+}
+.spanMain {
+    color: white;
+    font-size: 63px;
+    font-weight: bold;
+    text-align: center;
+    color: ;
+}
+.spanChange {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
