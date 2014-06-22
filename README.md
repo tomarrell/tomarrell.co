@@ -1,4 +1,4 @@
-tomarrell.co
+Personal Website/Blog
 ============
 
 My personal website and development blog.
