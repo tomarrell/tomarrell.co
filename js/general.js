@@ -6,9 +6,11 @@ $(document).ready(function() {
             windowHeight = $( window ).height();
             $(".backing").css({"height": windowHeight + "px"});
             $(".shader").css({"height": windowHeight + "px"});
+            $(".section1").css({"height": windowHeight - 10 + "px"});
         });
         $(".backing").css({"height": windowHeight + "px"});
         $(".shader").css({"height": windowHeight + "px"});
+        $(".section1").css({"height": windowHeight - 10 + "px"});
     })();
     
     var time = 0;
@@ -56,6 +58,12 @@ $(document).ready(function() {
             
         }, 1000);
     })();
+    
+    $('a[href*=#]').on('click', function(event){     
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, "swing");
+    });
+    
     
 });
 

@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 0;
-    background-image: url("../images/desktop-background-city-for-desktop-14.jpg");
+    background-image: url("../images/city.jpg");
     background-position: center center;
     background-size: cover;
     /*-webkit-filter: blur(4px) grayscale(20%);*/
@@ -32,7 +32,7 @@
 .section1 {
     width: 100%;
     background-color: rgba(52, 152, 219, 0);
-    height: 82px;
+    height: 125px;
     color: white;
 }
 .wrapper1 {
@@ -43,12 +43,18 @@
 .section1 nav {
     float: right;
     position: relative;
-    top: 29px;
+    top: 40px;
 }
 .section1 li {
     display: inline-block;
     margin-right: 53px;
     font-size: 20px;
+    padding: 4px 15px;
+    background-color: white;
+    color: black;
+}
+.section1 li a{
+    text-decoration: none;
 }
 .section1 li:last-of-type {
     display: inline-block;
@@ -59,6 +65,9 @@
     position: relative;
     top: 28px;
     font-size: 20px;
+    padding: 10px 19px;
+    background-color: white;
+    color: black;
 }
 .logo span{
     font-weight: bold;
@@ -75,12 +84,12 @@
 }
 .text {
     margin: auto;
-    width: 36%;
-    height: 35%;
+    width: 637px;
+    height: 321px;
     padding: 45px;
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
-  /*background-color: rgba(46, 51, 65, 0.26);*/
+    background-color: rgba(46, 51, 65, 0);
 }
 .spanMain {
     color: white;
@@ -88,12 +97,21 @@
     font-weight: bold;
     text-align: center;
     color: ;
+    line-height: 1.3;
 }
 .spanChange {
     color: white;
+/*    font-style: italic;*/
 }
 
+/**************************/
+/******SECTION THREE*******/
+/**************************/
 
+.section3 {
+    background-color: white;
+    height: 400px;
+}
 
 
 
