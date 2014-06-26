@@ -16,7 +16,7 @@ $(document).ready(function() {
     var time = 0;
     
     (function() {
-        var a0 = "#75b1de", a1 = "#31d0b1", a2 = "#5bd993", a3 = "#f080f2", a4 = "#f1c40f", a5 = "#ef6e62";
+        var a0 = "#75b1de", a1 = "#31d0b1", a2 = "#5bd993", a3 = "#8ce68c", a4 = "#f1c40f", a5 = "#ef6e62";
         var array = [a0, a1, a2, a3, a4, a5];
         var rand = [Math.floor(Math.random() * array.length)];
         
@@ -59,11 +59,33 @@ $(document).ready(function() {
         }, 1000);
     })();
     
-    $('a[href*=#]').on('click', function(event){     
-        event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, "swing");
-    });
+//    $('a[href*=#]').on('click', function(event){     
+//        event.preventDefault();
+//        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, "swing");
+//    });
     
+    var hashTagActive = "";
+    $(".scroll").click(function (event) {
+        if (hashTagActive != this.hash) {
+            event.preventDefault();
+            //calculate destination place
+            var dest = 0;
+            if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                dest = $(document).height() - $(window).height();
+            } else {
+                dest = $(this.hash).offset().top;
+            }
+            //go to destination
+            $('html,body').animate({
+                scrollTop: dest
+            }, 800, 'swing');
+            hashTagActive = this.hash;
+
+            setTimeout(function (){
+                hashTagActive = "";
+             }, 800);
+        }
+    });
     
 });
 

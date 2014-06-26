@@ -13,15 +13,16 @@
     height: 0;
     background-image: url("../images/city.jpg");
     background-position: center center;
+    -webkit-background-size: cover cover;
     background-size: cover;
     /*-webkit-filter: blur(4px) grayscale(20%);*/
     z-index: -99;
 }
 .shader {
-    z-index: -98;
+    z-index: -98; 
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 100%; 
     height: 0;
     background-color: rgba(21, 24, 35, 0.52);
 }
@@ -84,7 +85,7 @@
 }
 .text {
     margin: auto;
-    width: 637px;
+    width: 653px;
     height: 321px;
     padding: 45px;
     position: absolute;
@@ -97,7 +98,7 @@
     font-weight: bold;
     text-align: center;
     color: ;
-    line-height: 1.3;
+    line-height: 1.15;
 }
 .spanChange {
     color: white;
@@ -108,10 +109,31 @@
 /******SECTION THREE*******/
 /**************************/
 
+.scrollButton {
+    width: 0; 
+    height: 0;
+    border-top: 28px solid white;
+    border-left: 28px solid transparent; 
+    border-right: 28px solid transparent; 
+    margin: auto;
+    position: fixed;
+    bottom: 94px;
+    left: 0; right: 0;
+    opacity: .5;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+.scrollButton:hover {
+    opacity: 1;
+}
+
 .section3 {
     background-color: white;
     height: 400px;
+    position: relative;
+    z-index: 1;
 }
+
 
 
 
