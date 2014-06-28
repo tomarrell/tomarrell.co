@@ -39,8 +39,8 @@
 .section1 nav {
     float: right;
     position: fixed;
-    top: 40px;
-    right: 27px;
+    top: 25px;
+    right: 12px;
 }
 .section1 li {
     font-size: 20px;
