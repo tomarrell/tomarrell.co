@@ -8,7 +8,7 @@
  * */
 
 .backing {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 0;
     background-image: url("../images/city.jpg");
@@ -36,43 +36,53 @@
     height: 125px;
     color: white;
 }
-.wrapper1 {
-    width: 1241px;
-    margin: auto;
-    position: relative;
-}
 .section1 nav {
     float: right;
-    position: relative;
+    position: fixed;
     top: 40px;
+    right: 27px;
 }
 .section1 li {
-    display: inline-block;
-    margin-right: 53px;
     font-size: 20px;
-    padding: 4px 15px;
-    background-color: white;
-    color: black;
 }
 .section1 li a{
     text-decoration: none;
+    color: white;
+    font-family:  "Merriweather", serif;
+    font-weight: 700;
+    padding: 10px 15px;
+    background-color: rgba(51, 51, 50, 0.8);
+    border: 5px solid white;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+.section1 li a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
 }
 .section1 li:last-of-type {
     display: inline-block;
     margin-right: 0;
 }
 .logo {
-    float: left;
-    position: relative;
-    top: 28px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
     font-size: 20px;
-    padding: 10px 19px;
-    background-color: white;
-    color: black;
+    padding: 10px 15px 10px 16px;
+    background-color: rgba(51, 51, 50, 0.8);
+    color: white;
+    font-family:  "Merriweather", serif;
+    font-weight: 700;
+    border: 5px solid white;
+    -webkit-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+.logo:hover {
+    background-color: rgba(51, 51, 50, 0.2);
 }
 .logo span{
     font-weight: bold;
-    margin-left: 1px;
+    margin-left: 0;
 }
 
 /**************************/
@@ -126,16 +136,35 @@
 .scrollButton:hover {
     opacity: 1;
 }
-
 .section3 {
     background-color: white;
     height: 400px;
     position: relative;
     z-index: 1;
 }
-
-
-
+.footWrapper {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+.footWrapper p {
+    margin: 20px 0 59px 0;
+    font-size: 26px;
+    color: rgb(33, 33, 33);
+    font-family: "droid-sans", sans-serif;
+    text-align: left;
+}
+.footWrapper .fa {
+    font-size: 44px;
+    margin-right: 66px;
+    color: rgb(33, 33, 33);
+    text-align: center;
+}
+.footWrapper .fa:last-of-type {
+    margin-right: 0;
+}
 
 
 
