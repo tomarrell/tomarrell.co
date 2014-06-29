@@ -22,6 +22,8 @@ $(document).ready(function() {
         
         $(".spanMain").css({"color": array[rand]});
         
+        
+        
     })();
     
     (function() {

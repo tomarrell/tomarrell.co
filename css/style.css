@@ -143,29 +143,40 @@
     z-index: 1;
 }
 .footWrapper {
-    width: 50%;
+    width: 687px;
     margin: auto;
     padding: 20px;
     position: relative;
     text-align: center;
 }
-.footWrapper p {
-    margin: 20px 0 59px 0;
+.footWrapper p:first-of-type {
+    margin: 42px auto 59px auto;
     font-size: 26px;
-    color: rgb(33, 33, 33);
+    color: rgba(33, 33, 33, 0.78);
     font-family: "droid-sans", sans-serif;
-    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+    padding-bottom: 46px;
+    width: 686px;
 }
 .footWrapper .fa {
     font-size: 44px;
-    margin-right: 66px;
-    color: rgb(33, 33, 33);
+    color: #333332;
     text-align: center;
+}
+.footWrapper a {
+    margin-right: 66px;
+}
+.footWrapper a:last-of-type {
+    margin-right: 0;
 }
 .footWrapper .fa:last-of-type {
     margin-right: 0;
 }
-
+.footWrapper p:last-of-type {
+    margin-top: 97px;
+    color: #B3B3B1;
+}
 
 
 
