@@ -16,7 +16,7 @@ $(document).ready(function() {
     var time = 0;
     
     (function() {
-        var a0 = "#75b1de", a1 = "#31d0b1", a2 = "#5bd993", a3 = "#8ce68c", a4 = "#f1c40f", a5 = "#ef6e62";
+        var a0 = "rgba(117, 177, 222, 0.85)", a1 = "rgba(49, 208, 177, 0.85)", a2 = "rgba(91, 217, 147, 0.85)", a3 = "rgba(140, 230, 140, 0.85)", a4 = "rgba(241, 196, 15, 0.8)", a5 = "rgba(239, 110, 98, 0.85)";
         var array = [a0, a1, a2, a3, a4, a5];
         var rand = [Math.floor(Math.random() * array.length)];
         
