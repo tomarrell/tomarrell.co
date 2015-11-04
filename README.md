@@ -2,7 +2,8 @@ Personal Website/Blog
 ============
 
 My personal website and development blog.
-Studiofy
+
+Currently obsolete as work is underway building an updated version using ChangeCMS.
 
 ========
 
