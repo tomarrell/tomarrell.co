@@ -3,7 +3,7 @@ Personal Website/Blog
 
 My personal website and development blog.
 
-Currently obsolete as work is underway building an updated version using ChangeCMS.
+Currently obsolete as work is underway building an updated version using ChangeCMS, a personal project to build a fully featured NodeJS CMS. 
 
 ========
 
