@@ -3,7 +3,7 @@ Personal Website/Blog
 
 My personal website and development blog.
 
-Currently obsolete as work is underway building an updated version using ChangeCMS, a personal project to build a fully featured NodeJS CMS. 
+Currently obsolete as work is underway building an updated version using ChangeCMS, a personal project to build a fully featured NodeJS CMS. Head over to https://github.com/tomarrell/ChangeCMS, feel free to fork and contribute.
 
 ========
 
