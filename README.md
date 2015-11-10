@@ -3,6 +3,8 @@ Personal Website/Blog
 
 My personal website and development blog.
 
+A simple single page site with social media icons below the fold.
+
 Currently obsolete as work is underway building an updated version using ChangeCMS, a personal project to build a fully featured NodeJS CMS. Head over to https://github.com/tomarrell/ChangeCMS, feel free to fork and contribute.
 
 ========
