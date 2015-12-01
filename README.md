@@ -5,7 +5,7 @@ My personal website and development blog.
 
 A simple single page site with social media icons below the fold and large hero image above. Main heading colors randomized on refresh. Built with integration to a Ghost blog.
 
-Currently obsolete as work is underway building an updated version using ChangeCMS, a personal project to build a fully featured NodeJS CMS. Head over to https://github.com/tomarrell/ChangeCMS, feel free to fork and/or contribute.
+Currently obsolete as work is underway building an updated version using ChangeCMS, a personal project to build a fully featured NodeJS CMS. Head over to https://github.com/tomarrell/ChangeCMS, feel free to fork and contribute.
 
 ========
 
