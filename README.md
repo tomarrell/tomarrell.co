@@ -1,5 +1,6 @@
 Personal Website/Blog
 ============
+##Outdated. Please see tomarrellcom repo for current personal site source.
 
 My personal website and development blog.
 
